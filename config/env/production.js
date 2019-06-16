@@ -53,7 +53,7 @@ module.exports = {
     default: {
       // ssl: true,
 
-      adapter: 'sails-postgresql',
+      adapter: 'sails-mongo',
       url: process.env.DATABASE_URL
     },
 
